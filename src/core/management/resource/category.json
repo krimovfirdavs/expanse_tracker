@@ -1,0 +1,52 @@
+[
+    {
+        "model": "yourapp.category",
+        "pk": 1,
+        "fields": {
+            "name": "Ovqat",
+            "added_at": "2025-01-01T00:00:00Z",
+            "updated_at": "2025-01-01T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.category",
+        "pk": 2,
+        "fields": {
+            "name": "Transport",
+            "added_at": "2025-01-01T00:00:00Z",
+            "updated_at": "2025-01-01T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.category",
+        "pk": 3,
+        "fields": {
+            "name": "Uy-joy",
+            "added_at": "2025-01-01T00:00:00Z",
+            "updated_at": "2025-01-01T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.category",
+        "pk": 4,
+        "fields": {
+            "name": "O‘yin-kulgi",
+            "added_at": "2025-01-01T00:00:00Z",
+            "updated_at": "2025-01-01T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.category",
+        "pk": 5,
+        "fields": {
+            "name": "Salomatlik",
+            "added_at": "2025-01-01T00:00:00Z",
+            "updated_at": "2025-01-01T00:00:00Z",
+            "added_by": 1
+        }
+    }
+]

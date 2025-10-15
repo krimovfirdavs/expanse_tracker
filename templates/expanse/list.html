@@ -1,0 +1,95 @@
+{% extends "index.html" %}
+
+{% block title %}
+Expanse
+{% endblock %}
+
+{% block index %}
+<div class="header mb-3 d-flex justify-content-between align-items-center">
+    <h3>Expanse</h3>
+    <a href="/expanse/create" class="btn btn-sm px-3 btn-outline-dark">
+        <i class="fa-solid fa-square-plus"></i>
+        Add
+    </a>
+</div>
+
+<table class="table table-bordered">
+    <thead class="table-dark">
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Category</th>
+        <th scope="col">Note</th>
+        <th scope="col">Added At</th>
+        <th scope="col">Updated At</th>
+        <th scope="col">Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for i in object_list %}
+    <tr>
+        <th scope="row">{{ forloop.counter }}</th>
+        <td>{{ i.amount }}</td>
+        <td>{{ i.category }}</td>
+        <td>{{ i.note }}</td>
+        <td>{{ i.added_at|date:"d-m-Y H:i" }}</td>
+        <td>{{ i.updated_at|date:"d-m-Y H:i" }}</td>
+        <td>
+            <a href="/expanse/update/{{ i.id }}" class="text-decoration-none">
+                <i class="fa-solid fa-pen-to-square fa-bounce"></i>
+            </a>
+            <a type="button" class="text-decoration-none text-danger"
+               data-bs-toggle="modal" data-bs-target="#exampleModal{{ i.id }}">
+                <i class="fa-solid fa-trash-can fa-fade"></i>
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal{{ i.id }}" tabindex="-1"
+                 aria-labelledby="exampleModalLabel{{ i.id }}"
+                 aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel{{ i.id }}">Delete income #{{ i.id }}</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <b>Amount: </b> {{ i.amount }}
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Added By: </b> {{ i.added_by.username }}
+                                </li>
+                                <li class="list-group-item">
+                                    <b>Added At: </b> {{ i.added_at }}
+                                </li>
+                                <li class="list-group-item">
+                                    <p>
+                                        You can not restore after <b class="text-danger">delete this item!</b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            <a href="/expanse/delete/{{ i.id }}" class="btn btn-danger">Yes, I am sure!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="7">
+            <p class="text-center">
+                Not found :(
+            </p>
+        </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{% endblock %}

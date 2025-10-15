@@ -1,0 +1,6 @@
+django
+drf-yasg
+django-bootstrap-v5
+djangorestframework
+django-cors-headers
+djangorestframework-simplejwt

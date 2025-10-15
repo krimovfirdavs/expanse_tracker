@@ -1,0 +1,122 @@
+[
+    {
+        "model": "yourapp.income",
+        "pk": 1,
+        "fields": {
+            "amount": 8000000,
+            "type": "salary",
+            "note": "Yanvar oylik",
+            "added_at": "2025-01-05T00:00:00Z",
+            "updated_at": "2025-01-05T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.income",
+        "pk": 2,
+        "fields": {
+            "amount": 7500000,
+            "type": "extra_income",
+            "note": "Fevral qo‘shimcha daromad",
+            "added_at": "2025-02-05T00:00:00Z",
+            "updated_at": "2025-02-05T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.income",
+        "pk": 3,
+        "fields": {
+            "amount": 9000000,
+            "type": "salary",
+            "note": "Mart oylik",
+            "added_at": "2025-03-05T00:00:00Z",
+            "updated_at": "2025-03-05T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.income",
+        "pk": 4,
+        "fields": {
+            "amount": 8500000,
+            "type": "other",
+            "note": "Aprel boshqa daromad",
+            "added_at": "2025-04-05T00:00:00Z",
+            "updated_at": "2025-04-05T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.income",
+        "pk": 5,
+        "fields": {
+            "amount": 7000000,
+            "type": "salary",
+            "note": "May oylik",
+            "added_at": "2025-05-05T00:00:00Z",
+            "updated_at": "2025-05-05T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.income",
+        "pk": 6,
+        "fields": {
+            "amount": 10000000,
+            "type": "extra_income",
+            "note": "Iyun qo‘shimcha daromad",
+            "added_at": "2025-06-05T00:00:00Z",
+            "updated_at": "2025-06-05T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.income",
+        "pk": 7,
+        "fields": {
+            "amount": 9200000,
+            "type": "salary",
+            "note": "Iyul oylik",
+            "added_at": "2025-07-05T00:00:00Z",
+            "updated_at": "2025-07-05T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.income",
+        "pk": 8,
+        "fields": {
+            "amount": 7800000,
+            "type": "other",
+            "note": "Avgust boshqa daromad",
+            "added_at": "2025-08-05T00:00:00Z",
+            "updated_at": "2025-08-05T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.income",
+        "pk": 9,
+        "fields": {
+            "amount": 5700000,
+            "type": "salary",
+            "note": "Sentabr oylik",
+            "added_at": "2025-09-05T00:00:00Z",
+            "updated_at": "2025-09-05T00:00:00Z",
+            "added_by": 1
+        }
+    },
+    {
+        "model": "yourapp.income",
+        "pk": 10,
+        "fields": {
+            "amount": 3700000,
+            "type": "other",
+            "note": "Sentabr oylik",
+            "added_at": "2025-09-06T00:00:00Z",
+            "updated_at": "2025-09-06T00:00:00Z",
+            "added_by": 1
+        }
+    }
+]

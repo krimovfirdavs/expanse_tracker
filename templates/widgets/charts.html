@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-12 col-xl-8">
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <div class="col-12 col-xl-4">
+        <div>
+            <canvas id="CategoryChart"></canvas>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const ctx = document.getElementById('myChart');
+    const ctx_pie = document.getElementById('CategoryChart');
+
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: {{ expanse_bar_labels|safe }},
+        datasets: [{
+          label: '# of Votes',
+          data: {{ expanse_bar_totals|safe }},
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+
+    const data = {
+      labels: {{ category_pie_labels|safe }},
+      datasets: [{
+        label: 'My First Dataset',
+        data: {{ category_pie_totals|safe }},
+        backgroundColor: [
+          'rgb(255, 99, 132)',
+          'rgb(54, 162, 235)',
+          'rgb(255, 205, 86)'
+        ],
+        hoverOffset: 4
+      }]
+    };
+
+    new Chart(ctx_pie, {
+      type: 'pie',
+      data: data,
+    });
+</script>

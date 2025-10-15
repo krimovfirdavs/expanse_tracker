@@ -1,0 +1,371 @@
+[
+  {
+    "model": "yourapp.expanse",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "amount": 1500000,
+      "note": "Yanvar ovqat",
+      "added_at": "2025-01-10T00:00:00Z",
+      "updated_at": "2025-01-10T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 2,
+    "fields": {
+      "category": 2,
+      "amount": 450000,
+      "note": "Yanvar transport",
+      "added_at": "2025-01-15T00:00:00Z",
+      "updated_at": "2025-01-15T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "amount": 2500000,
+      "note": "Yanvar uy-joy",
+      "added_at": "2025-01-20T00:00:00Z",
+      "updated_at": "2025-01-20T00:00:00Z",
+      "added_by": 1
+    }
+  },
+
+  {
+    "model": "yourapp.expanse",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "amount": 1200000,
+      "note": "Fevral ovqat",
+      "added_at": "2025-02-10T00:00:00Z",
+      "updated_at": "2025-02-10T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 5,
+    "fields": {
+      "category": 4,
+      "amount": 800000,
+      "note": "Fevral o‘yin",
+      "added_at": "2025-02-15T00:00:00Z",
+      "updated_at": "2025-02-15T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 6,
+    "fields": {
+      "category": 2,
+      "amount": 600000,
+      "note": "Fevral transport",
+      "added_at": "2025-02-20T00:00:00Z",
+      "updated_at": "2025-02-20T00:00:00Z",
+      "added_by": 1
+    }
+  },
+
+  {
+    "model": "yourapp.expanse",
+    "pk": 7,
+    "fields": {
+      "category": 3,
+      "amount": 2000000,
+      "note": "Mart uy-joy",
+      "added_at": "2025-03-10T00:00:00Z",
+      "updated_at": "2025-03-10T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "amount": 1100000,
+      "note": "Mart ovqat",
+      "added_at": "2025-03-15T00:00:00Z",
+      "updated_at": "2025-03-15T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 9,
+    "fields": {
+      "category": 5,
+      "amount": 900000,
+      "note": "Mart salomatlik",
+      "added_at": "2025-03-20T00:00:00Z",
+      "updated_at": "2025-03-20T00:00:00Z",
+      "added_by": 1
+    }
+  },
+
+  {
+    "model": "yourapp.expanse",
+    "pk": 10,
+    "fields": {
+      "category": 2,
+      "amount": 500000,
+      "note": "Aprel transport",
+      "added_at": "2025-04-10T00:00:00Z",
+      "updated_at": "2025-04-10T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 11,
+    "fields": {
+      "category": 4,
+      "amount": 1400000,
+      "note": "Aprel o‘yin",
+      "added_at": "2025-04-15T00:00:00Z",
+      "updated_at": "2025-04-15T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 12,
+    "fields": {
+      "category": 1,
+      "amount": 1300000,
+      "note": "Aprel ovqat",
+      "added_at": "2025-04-20T00:00:00Z",
+      "updated_at": "2025-04-20T00:00:00Z",
+      "added_by": 1
+    }
+  },
+
+  {
+    "model": "yourapp.expanse",
+    "pk": 13,
+    "fields": {
+      "category": 5,
+      "amount": 1600000,
+      "note": "May salomatlik",
+      "added_at": "2025-05-10T00:00:00Z",
+      "updated_at": "2025-05-10T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 14,
+    "fields": {
+      "category": 3,
+      "amount": 2100000,
+      "note": "May uy-joy",
+      "added_at": "2025-05-15T00:00:00Z",
+      "updated_at": "2025-05-15T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 15,
+    "fields": {
+      "category": 2,
+      "amount": 400000,
+      "note": "May transport",
+      "added_at": "2025-05-20T00:00:00Z",
+      "updated_at": "2025-05-20T00:00:00Z",
+      "added_by": 1
+    }
+  },
+
+  {
+    "model": "yourapp.expanse",
+    "pk": 16,
+    "fields": {
+      "category": 4,
+      "amount": 1000000,
+      "note": "Iyun o‘yin",
+      "added_at": "2025-06-10T00:00:00Z",
+      "updated_at": "2025-06-10T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 17,
+    "fields": {
+      "category": 1,
+      "amount": 1700000,
+      "note": "Iyun ovqat",
+      "added_at": "2025-06-15T00:00:00Z",
+      "updated_at": "2025-06-15T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 18,
+    "fields": {
+      "category": 5,
+      "amount": 600000,
+      "note": "Iyun salomatlik",
+      "added_at": "2025-06-20T00:00:00Z",
+      "updated_at": "2025-06-20T00:00:00Z",
+      "added_by": 1
+    }
+  },
+
+  {
+    "model": "yourapp.expanse",
+    "pk": 19,
+    "fields": {
+      "category": 2,
+      "amount": 700000,
+      "note": "Iyul transport",
+      "added_at": "2025-07-10T00:00:00Z",
+      "updated_at": "2025-07-10T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 20,
+    "fields": {
+      "category": 3,
+      "amount": 2400000,
+      "note": "Iyul uy-joy",
+      "added_at": "2025-07-15T00:00:00Z",
+      "updated_at": "2025-07-15T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 21,
+    "fields": {
+      "category": 1,
+      "amount": 1500000,
+      "note": "Iyul ovqat",
+      "added_at": "2025-07-20T00:00:00Z",
+      "updated_at": "2025-07-20T00:00:00Z",
+      "added_by": 1
+    }
+  },
+
+  {
+    "model": "yourapp.expanse",
+    "pk": 22,
+    "fields": {
+      "category": 5,
+      "amount": 1000000,
+      "note": "Avgust salomatlik",
+      "added_at": "2025-08-10T00:00:00Z",
+      "updated_at": "2025-08-10T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 23,
+    "fields": {
+      "category": 2,
+      "amount": 550000,
+      "note": "Avgust transport",
+      "added_at": "2025-08-15T00:00:00Z",
+      "updated_at": "2025-08-15T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 24,
+    "fields": {
+      "category": 4,
+      "amount": 1300000,
+      "note": "Avgust o‘yin",
+      "added_at": "2025-08-20T00:00:00Z",
+      "updated_at": "2025-08-20T00:00:00Z",
+      "added_by": 1
+    }
+  },
+
+  {
+    "model": "yourapp.expanse",
+    "pk": 25,
+    "fields": {
+      "category": 3,
+      "amount": 2200000,
+      "note": "Sentabr uy-joy",
+      "added_at": "2025-09-10T00:00:00Z",
+      "updated_at": "2025-09-10T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 26,
+    "fields": {
+      "category": 1,
+      "amount": 1400000,
+      "note": "Sentabr ovqat",
+      "added_at": "2025-09-15T00:00:00Z",
+      "updated_at": "2025-09-15T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 27,
+    "fields": {
+      "category": 2,
+      "amount": 600000,
+      "note": "Sentabr transport",
+      "added_at": "2025-09-20T00:00:00Z",
+      "updated_at": "2025-09-20T00:00:00Z",
+      "added_by": 1
+    }
+  },
+
+  {
+    "model": "yourapp.expanse",
+    "pk": 28,
+    "fields": {
+      "category": 4,
+      "amount": 900000,
+      "note": "Oktabr o‘yin",
+      "added_at": "2025-10-01T00:00:00Z",
+      "updated_at": "2025-10-01T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 29,
+    "fields": {
+      "category": 1,
+      "amount": 1250000,
+      "note": "Oktabr ovqat",
+      "added_at": "2025-10-02T00:00:00Z",
+      "updated_at": "2025-10-02T00:00:00Z",
+      "added_by": 1
+    }
+  },
+  {
+    "model": "yourapp.expanse",
+    "pk": 30,
+    "fields": {
+      "category": 5,
+      "amount": 700000,
+      "note": "Oktabr salomatlik",
+      "added_at": "2025-10-03T00:00:00Z",
+      "updated_at": "2025-10-03T00:00:00Z",
+      "added_by": 1
+    }
+  }
+]

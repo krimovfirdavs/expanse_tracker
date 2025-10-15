@@ -1,0 +1,75 @@
+{% load humanize %}
+<div class="row">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+        <div class="card py-3">
+            <div class="card-body text-center">
+                <h2 class="card-title">{{ this_day_expanse|intcomma }}</h2>
+                <p class="card-text">Bugungi harajatlar</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+        <div class="card py-3">
+            <div class="card-body text-center">
+                <h2 class="card-title">{{ this_week_expanse|intcomma }}</h2>
+                <p class="card-text">Shu Haftalik harajatlar</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+        <div class="card py-3">
+            <div class="card-body text-center">
+                <h2 class="card-title">{{ this_month_expanse|intcomma }}</h2>
+                <p class="card-text">Shu Oydagi harajatlar</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+        <div class="card py-3">
+            <div class="card-body text-center">
+                <h2 class="card-title">{{ this_year_expanse|intword }}</h2>
+                <p class="card-text">Shu Yildagi harajatlar</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- INCOME SECTION -->
+<div class="row">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+        <div class="card py-3">
+            <div class="card-body text-center">
+                <h2 class="card-title">{{ this_month_income|intcomma }}</h2>
+                <p class="card-text">Shu Oydagi Kirimlar</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+        <div class="card py-3">
+            <div class="card-body text-center">
+                <h2 class="card-title">{{ this_year_income|intword }}</h2>
+                <p class="card-text">Shu Yilgi Kirimlar</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+        <div class="card py-3">
+            <div class="card-body text-center">
+                {% if top_income_type %}
+                    <h2 class="card-title">{{ top_income_type.total|intcomma }}</h2>
+                    <p class="card-text">Kirim turi: {{ top_income_type.type }}</p>
+                {% else %}
+                    <h2 class="card-title">0</h2>
+                    <p class="card-text">Kirim turi: </p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-3">
+        <div class="card py-3">
+            <div class="card-body text-center">
+                <h2 class="card-title">{{ balance|intcomma }}</h2>
+                <p class="card-text">Balance</p>
+            </div>
+        </div>
+    </div>
+</div>
