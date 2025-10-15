@@ -6,8 +6,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 LOCAL_APPS = ["src.core"]
 GLOBAL_APPS = [
+    "drf_yasg",
     "bootstrap5",
-    "django.contrib.humanize"
+    "rest_framework",
+    "django.contrib.humanize",
 ]
 INSTALLED_APPS += LOCAL_APPS + GLOBAL_APPS
 
@@ -26,6 +28,13 @@ TEMPLATES = [
         },
     },
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        # 'rest_framework.permissions.IsAuthenticated',
+        'rest_framework.permissions.AllowAny',
+    ]
+}
 
 TIME_ZONE = "Asia/Tashkent"
 
