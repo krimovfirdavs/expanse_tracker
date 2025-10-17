@@ -1,9 +1,6 @@
-from rest_framework.viewsets import ModelViewSet
-
-import src.core.models as models
-import src.api.serializers as serializer
+from src.bases.base_viewset import *
 
 
-class CategoryModelViewSet(ModelViewSet):
+class CategoryModelViewSet(BaseModelViewSet):
     queryset = models.Category.objects.all()
     serializer_class = serializer.CategorySerializer
