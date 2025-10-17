@@ -4,6 +4,12 @@ import src.core.models as models
 from django.contrib.auth.models import User
 
 
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ("id", "username", "last_login")
+
+
 class UserRelationSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
