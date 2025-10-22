@@ -101,3 +101,10 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 LOGIN_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
 LOGIN_REDIRECT_URL = "/home"
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://expence-tracker.uz',
+    'https://www.expence-tracker.uz',
+    'http://expence-tracker.uz',
+    'http://www.expence-tracker.uz',
+]
