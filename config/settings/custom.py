@@ -10,7 +10,8 @@ GLOBAL_APPS = [
     "bootstrap5",
     "rest_framework",
     "django.contrib.humanize",
-    "rest_framework_simplejwt"
+    "rest_framework_simplejwt",
+    "whitenoise.runserver_nostatic",
 ]
 INSTALLED_APPS += LOCAL_APPS + GLOBAL_APPS
 
@@ -40,7 +41,6 @@ REST_FRAMEWORK = {
 }
 
 from datetime import timedelta
-
 
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(days=1),
@@ -85,16 +85,18 @@ SIMPLE_JWT = {
 }
 
 SWAGGER_SETTINGS = {
-   'SECURITY_DEFINITIONS': {
-      'Bearer': {
+    'SECURITY_DEFINITIONS': {
+        'Bearer': {
             'type': 'apiKey',
             'name': 'Authorization',
             'in': 'header'
-      }
-   }
+        }
+    }
 }
 
 TIME_ZONE = "Asia/Tashkent"
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 LOGIN_URL = "/"
 LOGOUT_REDIRECT_URL = "/"
