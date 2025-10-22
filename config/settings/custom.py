@@ -3,6 +3,7 @@ from config.settings.base import *
 import os
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+ALLOWED_HOSTS = ['expence-tracker.uz', 'www.expence-tracker.uz']
 
 LOCAL_APPS = ["src.core"]
 GLOBAL_APPS = [
